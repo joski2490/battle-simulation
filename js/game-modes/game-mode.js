@@ -17,24 +17,26 @@ export const Quarter = {
 export const instaniateUnits = (type, amount, quarter, team) => {
 
     for (let i = 0; i < amount; i ++) {
+        let w = canvas.width/2;
+        let h = canvas.height/2;
         let x, y;
        // y = Math.floor(Math.random() * canvas.height);
         switch (quarter) {
             case Quarter.first:
                 x = Math.floor(Math.random() * canvas.width/2);
-                y = Math.floor(Math.random() * canvas.height/2;
+                y = Math.floor(Math.random() * canvas.height/2);
                 break;
             case Quarter.second:
                 x = canvas.width/2 + Math.floor(Math.random() * canvas.width/2);
-                y = Math.floor(Math.random() * canvas.height/2;
+                y = Math.floor(Math.random() * canvas.height/2);
                 break;
             case Quarter.third:
                 x = Math.floor(Math.random() * canvas.width/2);
-                y = canvas.height/2 + Math.floor(Math.random() * canvas.height/2;
+                y = canvas.height/2 + Math.floor(Math.random() * canvas.height/2);
                 break;
             case Quarter.forth:
                 x = canvas.width/2 + Math.floor(Math.random() * canvas.width/2);
-                y = canvas.height/2 + Math.floor(Math.random() * canvas.height/2;
+                y = canvas.height/2 + Math.floor(Math.random() * canvas.height/2);
                 break;
         }
 
