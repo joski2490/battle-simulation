@@ -11,11 +11,13 @@ class RomeTotalWar extends GameMode {
                 heros: 100,
                 archers: 100,
                 tanks: 25,
+                halberdiers: 75,
             },
             red: {
                 heros: 100,
                 archers: 100,
                 tanks: 25,
+                halberdiers: 75,
             },
             displayUI: false
         }
@@ -66,15 +68,15 @@ class RomeTotalWar extends GameMode {
 
         //red team
         instaniateUnits('Archer', options.red.archers, Quarter.first, 'red');
-        instaniateUnits('Hero', options.red.heros, Quarter.second, 'red');
-        instaniateUnits('Tank', options.red.tanks, Quarter.second, 'red');
-        instaniateUnits('Halberdier' , options.red.halberdiers, Quarter.second, 'red');
+        instaniateUnits('Hero', options.red.heros, Quarter.first, 'red');
+        instaniateUnits('Tank', options.red.tanks, Quarter.first, 'red');
+        instaniateUnits('Halberdier' , options.red.halberdiers, Quarter.first, 'red');
 
         //blue team
         instaniateUnits('Archer', options.blue.archers, Quarter.forth, 'blue');
-        instaniateUnits('Hero', options.blue.heros, Quarter.third, 'blue');
-        instaniateUnits('Tank', options.blue.tanks, Quarter.third, 'blue');
-        instaniateUnits('Halberdier' , options.blue.halberdiers, Quarter.third, 'blue');
+        instaniateUnits('Hero', options.blue.heros, Quarter.forth, 'blue');
+        instaniateUnits('Tank', options.blue.tanks, Quarter.forth, 'blue');
+        instaniateUnits('Halberdier' , options.blue.halberdiers, Quarter., 'blue');
     }
 }
 
