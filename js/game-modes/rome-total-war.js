@@ -76,7 +76,7 @@ class RomeTotalWar extends GameMode {
         instaniateUnits('Archer', options.blue.archers, Quarter.forth, 'blue');
         instaniateUnits('Hero', options.blue.heros, Quarter.forth, 'blue');
         instaniateUnits('Tank', options.blue.tanks, Quarter.forth, 'blue');
-        instaniateUnits('Halberdier' , options.blue.halberdiers, Quarter., 'blue');
+        instaniateUnits('Halberdier' , options.blue.halberdiers, Quarter.forth, 'blue');
     }
 }
 
