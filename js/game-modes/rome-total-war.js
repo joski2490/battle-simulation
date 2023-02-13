@@ -10,14 +10,12 @@ class RomeTotalWar extends GameMode {
             blue: {
                 heros: 100,
                 archers: 100,
-                tanks: 25,
-                halberdiers: 75,
+                tanks: 25,                
             },
             red: {
                 heros: 100,
                 archers: 100,
                 tanks: 25,
-                halberdiers: 75,
             },
             displayUI: false
         }
